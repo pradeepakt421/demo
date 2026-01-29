@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Finder</title>
+    <link rel="stylesheet" href="primenum.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <h2>Prime Number Finder</h2>
+        <div id="sub-container1">
+            <label for="ip1">Min:</label>
+            <input id="ip1" type="number" placeholder="Enter min number"> <br><br>
+
+            <label for="ip2">Max:</label>
+            <input id="ip2" type="number" placeholder="Enter max number"> <br><br>
+
+            <button onclick="handleButton()">Find Primes</button> <br><br>
+
+            <label for="disp">Total Primes:</label>
+            <div id="disp">
+            </div>
+        </div>
+
+        <div id="sub-container2">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Primes</th>
+                    </tr>
+                </thead>
+                <tbody id="body"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="primenum.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

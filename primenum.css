@@ -1,0 +1,63 @@
+.loader {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+    border-top: 2px solid #333;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 8px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+table {
+    width: 50%;              
+    border-collapse: collapse;  
+    font-size: 14px;         
+}
+
+table th {
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    text-align: left;
+    font-size: 16px;         
+    border: 1px solid #ccc;  
+}
+
+
+table td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;  
+    font-size: 14px;
+}
+
+
+button.cancel-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.loader {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+    border-top: 2px solid #333;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    animation: spin 0.8s linear infinite;
+}
+
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
