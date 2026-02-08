@@ -1,0 +1,46 @@
+.books-page-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+
+    .book-card {
+        width: 200px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+
+        .book-image {
+            width: 70%;
+            height: auto;
+            margin-top: 10px;
+
+        }
+
+        .book-title {
+            font-size: 15px;
+        }
+    }
+
+}
+
+
+.book-details-container{
+  .book-details {
+    display: flex;
+
+    .image {
+      padding-top: 20px;
+      padding-right: 30px;
+      padding-left: 10px;
+    }
+
+    .details {
+      p {
+        text-align: justify;
+      }
+      flex: 1; 
+    }
+  }
+}
